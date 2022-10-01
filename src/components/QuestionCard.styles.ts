@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { mobile } from "../responsive";
 
 export const Wrapper = styled.div`
     width: 60vw;
@@ -10,9 +11,10 @@ export const Wrapper = styled.div`
     text-align: center;
     margin-top: 20px;
     color: white;
+    ${mobile({ width: "95%" })}
 
     p {
-        font-size: 1rem
+        font-size: 1rem;
         color: white;
     }
 `
@@ -33,8 +35,8 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
         cursor: pointer;
         user-select: none;
         font-size: 0.8rem;
-        min-height: 40px;
-        min-width: 60%;
+        min-height: 70px;
+        min-width: 70%;
         margin: 5px 0;
         background: ${({ correct, userClicked}) =>
             correct
