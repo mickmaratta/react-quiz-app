@@ -9,5 +9,5 @@ View Live Site Here: [Video Game Quiz App](https://react-video-game-quiz.netlify
 - [Styled Components](https://styled-components.com/)
 - [Typescript](https://www.typescriptlang.org/)
 
-Check out my other proejcts here: [Mick Maratta](mickmaratta.me)
+Check out my other proejcts here: [Mick Maratta](https://www.mickmaratta.me)
 
